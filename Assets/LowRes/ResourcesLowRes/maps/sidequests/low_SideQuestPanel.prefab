@@ -77,7 +77,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224129172013414458}
   - component: {fileID: 65269757465560354}
-  - component: {fileID: 114323178838159105}
   m_Layer: 19
   m_Name: SideQuestPanelCollider
   m_TagString: Untagged
@@ -110,14 +109,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1284, y: 772, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114323178838159105
-MonoBehaviour:
-  m_GameObject: {fileID: 1251438409747202}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!1 &1994334693818821
 GameObject:
   serializedVersion: 5

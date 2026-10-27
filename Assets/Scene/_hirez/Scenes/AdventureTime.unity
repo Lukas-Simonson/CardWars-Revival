@@ -55105,7 +55105,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6444}
   - component: {fileID: 9737}
-  - component: {fileID: 9740}
   - component: {fileID: 9739}
   - component: {fileID: 9738}
   m_Layer: 9
@@ -274719,17 +274718,6 @@ MonoBehaviour:
   partyTitle: {fileID: 8512}
   partyDescription: {fileID: 8049}
   expiration: {fileID: 9060}
---- !u!114 &9740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 3366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d59d9c14cc91e9343b8e7836cc308476, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &9741
 MonoBehaviour:
   m_ObjectHideFlags: 0
