@@ -1,0 +1,61 @@
+name: Bug report
+description: Something in the game is broken or behaves differently from the original.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Start a battle against ...
+        2. Play the card ...
+        3. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      multiple: true
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - iOS (device)
+        - iOS (simulator)
+        - Android
+        - WebGL
+        - Unity Editor
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and OS version
+      placeholder: iPhone 16 Pro Max, iOS 27.1
+  - type: input
+    id: version
+    attributes:
+      label: Commit or build
+      description: Output of `git rev-parse --short HEAD`, or the build name.
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Play mode
+      options:
+        - Offline (offline_mode is true)
+        - Online (against the Revival server)
+        - Not sure
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and screenshots
+      description: Player log (macOS - ~/Library/Logs/shishkabob/Card Wars/Player.log) or device console output. Drag in screenshots or video.
+      render: shell
