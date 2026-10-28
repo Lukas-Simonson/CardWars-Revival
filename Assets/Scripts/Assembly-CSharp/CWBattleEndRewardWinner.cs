@@ -138,10 +138,7 @@ public class CWBattleEndRewardWinner : AsyncData<string>
 					if (instance3.StatsMeetCondition(conditionID))
 					{
 						questProgress = instance2.IncQuestProgress(activeQuest);
-						if (questProgress == 3)
-						{
-							instance2.Gems++;
-						}
+						instance2.AwardStarGems(activeQuest, questProgress);
 					}
 				}
 				instance.lastStamina = instance2.Stamina;

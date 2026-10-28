@@ -22,6 +22,12 @@ public class ParametersManager : ILoadable
 
 	public int Stamina_Restoration_Rate;
 
+	public int Gems_Per_Star = 1;
+
+	public float Cleared_Quest_Chest_Multiplier = 1.5f;
+
+	public float Cleared_Quest_Coin_Multiplier = 1.5f;
+
 	public int Max_Leader_Level;
 
 	public int Starting_Magic_Points = 2;
@@ -104,6 +110,15 @@ public class ParametersManager : ILoadable
 				break;
 			case "New_Player_Gems":
 				New_Player_Gems = TFUtils.LoadInt(dict, "Value", 0);
+				break;
+			case "Gems_Per_Star":
+				Gems_Per_Star = TFUtils.LoadInt(dict, "Value", 1);
+				break;
+			case "Cleared_Quest_Chest_Multiplier":
+				Cleared_Quest_Chest_Multiplier = TFUtils.LoadFloat(dict, "Value", 1.5f);
+				break;
+			case "Cleared_Quest_Coin_Multiplier":
+				Cleared_Quest_Coin_Multiplier = TFUtils.LoadFloat(dict, "Value", 1.5f);
 				break;
 			case "Stamina_Restoration_Rate":
 				stamina_minutes = TFUtils.LoadFloat(dict, "Value", 1f);

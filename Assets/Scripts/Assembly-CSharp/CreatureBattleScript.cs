@@ -270,6 +270,12 @@ public class CreatureBattleScript : MonoBehaviour
 			CardItem card = GameInstance.GetCard(Player, LaneIndex, CardType.Creature);
 			num = card.DropRate;
 		}
+		if (activeQuest.HasBonusDrops)
+		{
+			float boostedChance = Math.Min(1f, num * ParametersManager.Instance.Cleared_Quest_Chest_Multiplier);
+			TFUtils.DebugLog(string.Format("Chest odds for 3-starred quest {0}: {1:0.###} -> {2:0.###}", activeQuest.QuestID, num, boostedChance), "loot");
+			num = boostedChance;
+		}
 		float num2 = UnityEngine.Random.Range(0f, 1f);
 		return num2 <= num;
 	}

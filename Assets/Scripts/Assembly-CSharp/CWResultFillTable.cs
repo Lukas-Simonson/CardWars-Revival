@@ -66,10 +66,7 @@ public class CWResultFillTable : MonoBehaviour
 			if (instance2.StatsMeetCondition(conditionID))
 			{
 				num = instance.IncQuestProgress(currentQuest);
-				if (num == 3)
-				{
-					instance.Gems++;
-				}
+				instance.AwardStarGems(currentQuest, num);
 				text = instance2.ConditionDescription(conditionID);
 				flag = true;
 			}

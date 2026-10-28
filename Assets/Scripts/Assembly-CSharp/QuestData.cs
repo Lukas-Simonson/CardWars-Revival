@@ -133,6 +133,23 @@ public class QuestData
 		}
 	}
 
+	public bool UsesStoryRewards
+	{
+		get
+		{
+			return QuestTypes.UsesStoryRewards(QuestType);
+		}
+	}
+
+	// A story quest the player has already 3-starred: replaying it pays out better chest odds and coin amounts.
+	public bool HasBonusDrops
+	{
+		get
+		{
+			return UsesStoryRewards && GetProgress() >= 3;
+		}
+	}
+
 	public bool IsQuestType(string qt)
 	{
 		return QuestType.Equals(qt, StringComparison.InvariantCultureIgnoreCase);
@@ -403,7 +420,16 @@ public class QuestData
 			int weight = dropProfile.CoinWeights[i];
 			weightedList.Add(item, weight);
 		}
-		return (!weightedList.IsEmpty()) ? weightedList.RandomItem() : 0;
+		if (weightedList.IsEmpty())
+		{
+			return 0;
+		}
+		int amount = weightedList.RandomItem();
+		if (HasBonusDrops)
+		{
+			amount = Math.Max(1, (int)Math.Round(amount * ParametersManager.Instance.Cleared_Quest_Coin_Multiplier, MidpointRounding.AwayFromZero));
+		}
+		return amount;
 	}
 
 	public QuestData ShallowClone()

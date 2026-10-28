@@ -2654,6 +2654,19 @@ public class PlayerInfoScript : MonoBehaviour
 		return num;
 	}
 
+	// Gems for a star that was just earned. Story quests pay per star; other quest types keep the original single gem for the third.
+	public void AwardStarGems(QuestData qd, int newProgress)
+	{
+		if (qd.UsesStoryRewards)
+		{
+			Gems += ParametersManager.Instance.Gems_Per_Star;
+		}
+		else if (newProgress == 3)
+		{
+			Gems++;
+		}
+	}
+
 	public void ResetQuestProgress(QuestData qd)
 	{
 		SetQuestProgress(qd, 0);

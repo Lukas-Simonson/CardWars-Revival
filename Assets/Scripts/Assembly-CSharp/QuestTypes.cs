@@ -14,6 +14,12 @@ public class QuestTypes
 
 	public const string ElFisto = "elfisto";
 
+	// Quests that follow the story rewards: a gem for every star earned, and better drops once all three stars are held.
+	public static bool UsesStoryRewards(string questType)
+	{
+		return questType == "main" || questType == "fc";
+	}
+
 	public static bool AutoUnlockQuests(string questType)
 	{
 		if (questType != "tcat" && questType != "elfisto")
