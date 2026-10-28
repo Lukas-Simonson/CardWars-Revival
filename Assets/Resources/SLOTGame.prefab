@@ -1128,7 +1128,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4625723540244247}
-  - component: {fileID: 114970931181380990}
   m_Layer: 0
   m_Name: SteamManager
   m_TagString: Untagged
@@ -1146,14 +1145,6 @@ Transform:
   m_Father: {fileID: 4007044467685618}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114970931181380990
-MonoBehaviour:
-  m_GameObject: {fileID: 1926571386907937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f8d6f5d3b4d20648b81506a43ab595b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
 --- !u!1 &1903774531757777
 GameObject:
   serializedVersion: 5

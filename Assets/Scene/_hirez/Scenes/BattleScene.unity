@@ -2916,7 +2916,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2433}
   - component: {fileID: 6899}
-  - component: {fileID: 6898}
   - component: {fileID: 6897}
   m_Layer: 9
   m_Name: Star_4
@@ -2934,7 +2933,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2497}
   - component: {fileID: 5687}
-  - component: {fileID: 5686}
   - component: {fileID: 5685}
   m_Layer: 9
   m_Name: Star_5
@@ -2969,7 +2967,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2498}
   - component: {fileID: 7665}
-  - component: {fileID: 7664}
   - component: {fileID: 7663}
   m_Layer: 9
   m_Name: Star_4
@@ -3003,7 +3000,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2434}
   - component: {fileID: 7758}
-  - component: {fileID: 7757}
   - component: {fileID: 7756}
   m_Layer: 9
   m_Name: Star_3
@@ -3037,7 +3033,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2447}
   - component: {fileID: 5556}
-  - component: {fileID: 5555}
   - component: {fileID: 5554}
   m_Layer: 9
   m_Name: Star_4
@@ -3055,7 +3050,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2448}
   - component: {fileID: 5731}
-  - component: {fileID: 5730}
   - component: {fileID: 5729}
   m_Layer: 9
   m_Name: Star_3
@@ -3089,7 +3083,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2484}
   - component: {fileID: 6210}
-  - component: {fileID: 6209}
   - component: {fileID: 6208}
   m_Layer: 9
   m_Name: Star_4
@@ -3107,7 +3100,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2499}
   - component: {fileID: 5932}
-  - component: {fileID: 5931}
   - component: {fileID: 5930}
   m_Layer: 9
   m_Name: Star_3
@@ -3173,7 +3165,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2485}
   - component: {fileID: 6221}
-  - component: {fileID: 6220}
   - component: {fileID: 6219}
   m_Layer: 9
   m_Name: Star_3
@@ -3322,7 +3313,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2446}
   - component: {fileID: 7415}
-  - component: {fileID: 7414}
   - component: {fileID: 7413}
   m_Layer: 9
   m_Name: Star_5
@@ -3389,7 +3379,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2445}
   - component: {fileID: 5129}
-  - component: {fileID: 5128}
   - component: {fileID: 5127}
   m_Layer: 9
   m_Name: Star_6
@@ -3407,7 +3396,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2432}
   - component: {fileID: 5526}
-  - component: {fileID: 5525}
   - component: {fileID: 5524}
   m_Layer: 9
   m_Name: Star_5
@@ -3506,7 +3494,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2496}
   - component: {fileID: 5976}
-  - component: {fileID: 5975}
   - component: {fileID: 5974}
   m_Layer: 9
   m_Name: Star_6
@@ -3671,7 +3658,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2478}
   - component: {fileID: 6284}
-  - component: {fileID: 6283}
   - component: {fileID: 6282}
   m_Layer: 9
   m_Name: Star_3
@@ -3705,7 +3691,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2483}
   - component: {fileID: 7293}
-  - component: {fileID: 7292}
   - component: {fileID: 7291}
   m_Layer: 9
   m_Name: Star_5
@@ -3805,7 +3790,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2476}
   - component: {fileID: 6794}
-  - component: {fileID: 6793}
   - component: {fileID: 6792}
   m_Layer: 9
   m_Name: Star_5
@@ -3905,7 +3889,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2477}
   - component: {fileID: 7681}
-  - component: {fileID: 7680}
   - component: {fileID: 7679}
   m_Layer: 9
   m_Name: Star_4
@@ -4036,7 +4019,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2431}
   - component: {fileID: 5510}
-  - component: {fileID: 5509}
   - component: {fileID: 5508}
   m_Layer: 9
   m_Name: Star_6
@@ -4054,7 +4036,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2475}
   - component: {fileID: 5966}
-  - component: {fileID: 5965}
   - component: {fileID: 5964}
   m_Layer: 9
   m_Name: Star_6
@@ -4154,7 +4135,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2482}
   - component: {fileID: 6853}
-  - component: {fileID: 6852}
   - component: {fileID: 6851}
   m_Layer: 9
   m_Name: Star_6
@@ -34346,7 +34326,6 @@ GameObject:
   - component: {fileID: 4295}
   - component: {fileID: 4962}
   - component: {fileID: 6943}
-  - component: {fileID: 6942}
   - component: {fileID: 6941}
   - component: {fileID: 6945}
   - component: {fileID: 6944}
@@ -89444,17 +89423,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &5128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98231,17 +98199,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &5509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98716,17 +98673,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &5525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99364,17 +99310,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &5555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102347,17 +102282,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &5686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103466,17 +103390,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &5730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107903,17 +107816,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &5931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108694,17 +108596,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &5965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108910,17 +108801,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &5975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113880,17 +113760,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &6209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114185,17 +114054,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &6220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115696,17 +115554,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &6283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127838,17 +127685,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &6793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129517,17 +129353,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &6852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130656,17 +130481,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &6898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131744,17 +131558,6 @@ MonoBehaviour:
   trigger: 0
   volume: 1
   pitch: 1
---- !u!114 &6942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140119,17 +139922,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &7292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142756,17 +142548,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &7414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148948,17 +148729,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &7664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149365,17 +149135,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &7680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151109,17 +150868,6 @@ MonoBehaviour:
   callWhenFinished: 
   from: 0
   to: 1
---- !u!114 &7757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7758
 MonoBehaviour:
   m_ObjectHideFlags: 0

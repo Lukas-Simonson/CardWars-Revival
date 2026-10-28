@@ -198,7 +198,6 @@ GameObject:
   - component: {fileID: 124853899186071490}
   - component: {fileID: 92172907982821263}
   - component: {fileID: 81158142744521711}
-  - component: {fileID: 114378466054628977}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -753,17 +752,6 @@ MonoBehaviour:
   CameraLocation: {fileID: 4761597532151720}
   CameraTarget: {fileID: 4170393084888262}
   FloopCamera: {fileID: 20395586169980871}
---- !u!114 &114378466054628977
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1455792250335763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114668550303223061
 MonoBehaviour:
   m_ObjectHideFlags: 1
