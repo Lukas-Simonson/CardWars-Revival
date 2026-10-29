@@ -108,11 +108,16 @@ public class SQSettings
 	}
 
 	// When true (server_settings.json "offline_mode"), no request is sent to the game server:
-	// logins, saves, patching and version checks are answered locally.
+	// logins, saves, patching and version checks are answered locally. Reads the settings on first use:
+	// on a fresh install the login screen asks before Session has called Init().
 	public static bool OfflineMode
 	{
 		get
 		{
+			if (!initialized)
+			{
+				Init();
+			}
 			return offlineMode;
 		}
 	}
